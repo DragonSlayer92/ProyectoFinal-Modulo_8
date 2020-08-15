@@ -1,0 +1,33 @@
+<div class="container-fluid c-login">
+  <div class="row">
+
+    <div class="col-lg-3 col-centered">
+      <div class="wrath-content-box"> <h1>Inicia Sesión</h1> </div>
+          <div class="wrath-content-box">
+
+            <div class="form-group">
+              <label class="col-md-12" for="email-input">Correo electrónico:</label>
+              <input #user type="email" class="form-control" ngModel name="user" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" />
+              <!--span class="error">El Correo Electrónico no es válido</span>< Mensaje de campo inválido-->
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-12">Contrase&ntilde;a:</label>
+              <input #password name="password" type="password" class="form-control" required/>
+              <!--span class="error">Digita una Contraseña</span>< Mensaje de campo inválido-->
+            </div>
+
+            <div class="form-group">
+              <div class="mensaje"> <!--Mostrar el mensaje de error de inicio de sesión-->
+                {{mensaje}}
+              </div>
+              <input type="submit" class="btn btn-success" value="Ingresar" (click)="iniciarSesion(user.value, password.value)"/>
+            </div>
+
+            <div class="clearfix"></div>
+
+          </div>
+    </div>
+
+  </div>
+</div>

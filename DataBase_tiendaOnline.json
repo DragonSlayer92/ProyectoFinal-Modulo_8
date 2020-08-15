@@ -1,0 +1,41 @@
+{
+  "usuarios": [
+    {"contrasena":"admin","correo":"admin@admin.com","nombre":"Administrador"},
+    {"contrasena":"RodolfoPuc","correo":"rodolfopuc@gmail.com","nombre":"Rodolfo Puc"}
+  ],
+  "productos":[
+    {"id":0,"imagen":"aguacate.jpg","nombre":"Aguacate","precio":30,"unidadesDisponibles":100},
+    {"id":1,"imagen":"ajo.jpg","nombre":"Ajo","precio":10,"unidadesDisponibles":50},
+    {"id":2,"imagen":"almendras.jpg","nombre":"Almendras","precio":100,"unidadesDisponibles":50},
+    {"id":3,"imagen":"arandanos.jpg","nombre":"Arandanos","precio":50,"unidadesDisponibles":100},
+    {"id":4,"imagen":"brocoli.png","nombre":"Brocoli","precio":15,"unidadesDisponibles":100},
+    {"id":5,"imagen":"calabaza.jpg","nombre":"Calabaza","precio":25,"unidadesDisponibles":50},
+    {"id":6,"imagen":"canela.jpg","nombre":"Canela","precio":9,"unidadesDisponibles":50},
+    {"id":7,"imagen":"cebolla.jpg","nombre":"Cebolla","precio":13,"unidadesDisponibles":100},
+    {"id":8,"imagen":"fresa.jpg","nombre":"Fresa","precio":65,"unidadesDisponibles":50},
+    {"id":9,"imagen":"kiwi.jpg","nombre":"Kiwi","precio":45,"unidadesDisponibles":50},
+    {"id":10,"imagen":"limon.jpg","nombre":"Limon","precio":32,"unidadesDisponibles":500},
+    {"id":11,"imagen":"lychee.jpg","nombre":"Lychee","precio":100,"unidadesDisponibles":50},
+    {"id":12,"imagen":"maiz.jpg","nombre":"Maiz","precio":350,"unidadesDisponibles":50},
+    {"id":13,"imagen":"manzana.jpg","nombre":"Manzana","precio":27,"unidadesDisponibles":50},
+    {"id":14,"imagen":"naranja.jpg","nombre":"Naranja","precio":35,"unidadesDisponibles":100},
+    {"id":15,"imagen":"papa.jpg","nombre":"Papa","precio":20,"unidadesDisponibles":100},
+    {"id":16,"imagen":"pasta.jpg","nombre":"Pasta","precio":35,"unidadesDisponibles":50},
+    {"id":17,"imagen":"pimienta.jpg","nombre":"Pimienta","precio":10,"unidadesDisponibles":50},
+    {"id":18,"imagen":"repollo.jpg","nombre":"Repollo","precio":9,"unidadesDisponibles":50},
+    {"id":19,"imagen":"tomate.jpg","nombre":"Tomate","precio":27,"unidadesDisponibles":100},
+    {"id":20,"imagen":"zanahoria.jpg","nombre":"Zanahoria","precio":16,"unidadesDisponibles":50}
+  ],
+  "pedidos": [
+    {
+    "-LtCBrnOBksLU0TRkEXu":{"cantidadAComprar":1,"imagen":"aguacate.jpg","nombre":"Aguacate","precio":30},
+    "-LtCfuCb7oYV1gji5rEL":{"cantidadAComprar":2,"id":2,"imagen":"almendras.jpg","nombre":"Almendras","precio":100,"unidadesDisponibles":46},
+    "-LtCfuDBOkJKmRgJETGf":{"cantidadAComprar":1,"id":0,"imagen":"aguacate.jpg","nombre":"Aguacate","precio":30,"unidadesDisponibles":19},
+    "-Lt_Eic59tu6_1JMiMZy":{"cantidadAComprar":1,"id":1,"imagen":"ajo.jpg","nombre":"Ajo","precio":10,"unidadesDisponibles":79},
+    "-M6QNsWtFdyx8F1uCAsY":{"cantidadAComprar":6,"id":0,"imagen":"aguacate.jpg","nombre":"Aguacate","precio":30,"unidadesDisponibles":13},
+    "-M6QNsXnAe2dxq5q5rkI":{"cantidadAComprar":6,"id":3,"imagen":"arandanos.jpg","nombre":"Arandanos","precio":50,"unidadesDisponibles":394},
+    "-MC5EcfBjYOyjsEWRxUa":{"cantidadAComprar":2,"id":1,"imagen":"ajo.jpg","nombre":"Ajo","precio":10,"unidadesDisponibles":77},
+    "-MC5EcfenevDTKXC9J_8":{"cantidadAComprar":2,"id":2,"imagen":"almendras.jpg","nombre":"Almendras","precio":100,"unidadesDisponibles":46},
+    "-MEl3bhb-Q2OR4NKmuKV":{"cantidadAComprar":0,"id":0,"imagen":"aguacate.jpg","nombre":"Aguacate","precio":30,"unidadesDisponibles":93}}
+  ]
+}
